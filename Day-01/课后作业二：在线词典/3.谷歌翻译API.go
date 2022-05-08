@@ -35,7 +35,7 @@ func CN2EN(text string) (string, error) {
 }
 
 func main() {
-	str, err := CN2EN("从前有座山，山上有座庙，庙里有个老和尚")
+	str, err := CN2EN("作业")
 	if err != nil {
 		fmt.Println(err)
 	}
